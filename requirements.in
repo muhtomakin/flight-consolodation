@@ -1,8 +1,0 @@
-# Use `pip-compile requirements.in` for compiling
-# You can freeze requirements here.
-
-# Dev packages
-pip-tools
-
-# Scrape
-selenium

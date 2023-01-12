@@ -1,3 +1,5 @@
+import Box from '@mui/material/Box';
+
 export const bull = (
     <Box
       component="span"

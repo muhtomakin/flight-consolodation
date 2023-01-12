@@ -7,9 +7,7 @@ import Stack from '@mui/material/Stack';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
-import DatePicker from './DatePicker';
 import { useDispatch, useSelector } from 'react-redux';
-import { changeDatas } from '../redux/slice';
 import { getDataAsync } from '../redux/service';
 import { iataCodeTurn } from '../redux/service';
 
